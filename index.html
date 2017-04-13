@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Abe themes</title>
+	<link rel="stylesheet" type="text/css" href="/assets/semantic.min.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="/assets/semantic.min.js"></script>
+</head>
+	<body>
+		<div class="ui container">
+
+			<br>
+
+			<div class="ui menu">
+			  <div class="header item">
+			    Menu 1
+			  </div>
+			  <a class="item">
+			    Menu 2
+			  </a>
+			  <a class="item">
+			    Menu 3
+			  </a>
+			</div>
+
+			<div class="ui breadcrumb">
+			  <a class="section">Home</a>
+			</div>
+
+			<h1 class="ui dividing header">
+				{{abe type='text' key='title' desc='title of the page'}}
+			</h1>
+
+			<h2 class="ui sub header">
+				{{abe type='text' key='subtitle' desc='subtitle of the page'}}
+			</h2>
+
+			<section class="">
+				<p class="">
+					{{abe type='rich' key='content' desc='content of the page' toolbar='bold,italic,underline'}}
+				</p>
+				<div class="ui">
+					<p>
+						<img class="ui fluid image" src="{{abe type='image' key='image' desc='image' thumbs='250x250'}}">
+					</p>
+					<p>
+						{{abe type='rich' key='content' desc='content of the page' toolbar='bold,italic,underline,strikethrough,forecolor,highlight,align,subscript,superscript,indent,insertList,removeFormat,insertLink,code,list,media,format,font,fontsize,smiley'}}
+					</p>
+				</div>
+			</section>
+		</div>
+		<br>
+		<br>
+		<div class="ui black inverted vertical footer segment">
+		  <div class="ui center aligned container">
+		    <div class="ui stackable inverted grid">
+		      <div class="three wide column">
+		        <h4 class="ui inverted header">Footer 1</h4>
+		        <div class="ui inverted link list">
+		          <a class="item" href="#" target="_blank">Link 1</a>
+		          <a class="item" href="#" target="_blank">Link 2</a>
+		          <a class="item" href="#" target="_blank">Link 3</a>
+		          <a class="item" href="#" target="_blank">Link 4</a>
+		        </div>
+		      </div>
+		      <div class="three wide column">
+		        <h4 class="ui inverted header">Footer 2</h4>
+		        <div class="ui inverted link list">
+		          <a class="item" href="#" target="_blank">Link 1</a>
+		          <a class="item" href="#" target="_blank">Link 2</a>
+		          <a class="item" href="#" target="_blank">Link 3</a>
+		          <a class="item" href="#" target="_blank">Link 4</a>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+	</body>
+</html>

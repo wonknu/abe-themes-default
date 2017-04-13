@@ -1,0 +1,12 @@
+{
+  "theme": {
+    "name": "Awesome theme",
+    "author": "Fabrice labbé",
+    "author_website": "https://github.com/wonknu/",
+    "thumb": "thumb.png",
+    "root_files": [
+      "index_files",
+      "index.html"
+    ]
+  }
+}
